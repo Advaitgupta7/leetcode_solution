@@ -15,7 +15,7 @@ public:
         if (left > right)
             return NULL;
 
-        int mid = left + (right - left+1) / 2;
+        int mid = left + (right - left) / 2;
 
         TreeNode* root = new TreeNode(nums[mid]);
 
